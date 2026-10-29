@@ -30,6 +30,8 @@ $scientific-writing-mentor 按照 Nature Communications 修改摘要，与可用
 
 ## 安装到 Codex
 
+正式版安装包及校验值见 [Releases](https://github.com/phoenixiangyu/scientific-writing-mentor/releases)。安装包仅包含 skill 与许可说明；大型教材保留在仓库 `source-materials/` 中。使用固定版本时，把下方安装链接中的 `main` 换成对应标签（例如 `v1.0.0`）。
+
 向已经具有 skill-installer 的 Codex 发送：
 
 ```text
