@@ -65,7 +65,7 @@ python ~/.codex/skills/.system/skill-installer/scripts/install-skill-from-github
 - `examples/`：虚构材料的正文与批注示例。
 - `tests/`：批注契约检查及人工验收场景。可运行 `python -m unittest discover -s tests -v`。
 
-可选检查器 `scripts/check_review.py` 检查正文占位符、批注字段和文字锚点；它不能判断科学真实性。人工验收场景不是已经执行的独立模型评测。
+可选检查器 `scripts/check_review.py` 检查正文占位符、批注字段和文字锚点；它不能判断科学真实性。v2.0 已完成一项[独立的结果段落与图注示例检验](tests/v2-behavior-check.md)；其余人工验收场景不应视为已执行的模型评测。
 
 ## 许可
 
