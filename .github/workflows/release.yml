@@ -7,6 +7,10 @@ on:
       - 'skills/scientific-writing-mentor/SKILL.md'
       - 'release-notes/**'
       - 'scripts/build_release.py'
+      - 'scripts/build_installer.py'
+      - 'scripts/test_installer.py'
+      - 'scripts/publish_release.py'
+      - 'installer/**'
       - '.github/workflows/release.yml'
   workflow_dispatch:
 
@@ -20,7 +24,7 @@ concurrency:
 jobs:
   publish:
     if: github.ref == 'refs/heads/main'
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     timeout-minutes: 10
     permissions:
       contents: write
@@ -34,26 +38,19 @@ jobs:
             tests
             scripts
             release-notes
+            installer
       - name: Verify comment contract
-        run: python3 -m unittest discover -s tests -v
+        run: python -m unittest discover -s tests -v
       - name: Build installable package
         id: package
-        run: python3 scripts/build_release.py --github-output
-      - name: Publish a new version without changing existing releases
+        run: python scripts/build_release.py --github-output
+      - name: Build offline Windows EXE
+        run: python scripts/build_installer.py
+      - name: Test install, verification and backup in an isolated home
+        run: python scripts/test_installer.py
+      - name: Publish assets while preserving existing version packages
         env:
           GH_TOKEN: ${{ github.token }}
           GH_REPO: ${{ github.repository }}
           RELEASE_TAG: ${{ steps.package.outputs.tag }}
-        run: |
-          set -euo pipefail
-          if gh release view "$RELEASE_TAG" >/dev/null 2>&1; then
-            echo "Release $RELEASE_TAG already exists; leaving it unchanged."
-            exit 0
-          fi
-          gh release create "$RELEASE_TAG" \
-            --target "$GITHUB_SHA" \
-            --title "Scientific Writing Mentor $RELEASE_TAG" \
-            --notes-file "release-notes/$RELEASE_TAG.md" \
-            --latest \
-            "dist/scientific-writing-mentor-$RELEASE_TAG.zip" \
-            dist/SHA256SUMS.txt
+        run: python scripts/publish_release.py

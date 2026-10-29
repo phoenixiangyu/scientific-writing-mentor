@@ -32,6 +32,8 @@ $scientific-writing-mentor 按照 Nature Communications 修改摘要，与可用
 
 正式版安装包及校验值见 [Releases](https://github.com/phoenixiangyu/scientific-writing-mentor/releases)。安装包仅包含 skill 与许可说明；大型教材保留在仓库 `source-materials/` 中。使用固定版本时，把下方安装链接中的 `main` 换成对应标签（例如 `v1.0.0`）。
 
+**Windows 一键安装：** 下载 Releases 中的 `scientific-writing-mentor-v1.0.0-setup.exe`，双击后点击“安装”。无需管理员权限或 Python；已有版本会先备份到个人 Codex 目录的 `skill-backups`。尊重 `CODEX_HOME` 设置，安装后检查文件完整性。适用于 Windows 10/11 的 .NET Framework 环境，当前 EXE 未数字签名。它是技能安装器，不是独立 AI 写作软件。
+
 向已经具有 skill-installer 的 Codex 发送：
 
 ```text
