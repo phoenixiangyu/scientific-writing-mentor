@@ -14,6 +14,7 @@ if __name__ == '__main__':
     package = ROOT / f'dist/scientific-writing-mentor-{tag}.zip'
     installer = ROOT / f'dist/scientific-writing-mentor-{tag}-setup.exe'
     assert package.is_file() and installer.is_file()
+    installer_notes = (ROOT / 'release-notes/windows-installer.md').read_text(encoding='utf-8').replace('{{TAG}}', tag)
     existing = gh('release', 'view', tag, '--json', 'assets,body', check=False)
     if existing.returncode == 0:
         data = json.loads(existing.stdout)
@@ -30,12 +31,13 @@ if __name__ == '__main__':
             gh('release', 'upload', tag, str(installer))
         body = data['body']
         if '## Windows EXE 安装程序' not in body:
-            body += '\n\n' + (ROOT / 'release-notes/windows-installer.md').read_text(encoding='utf-8')
+            body += '\n\n' + installer_notes
             notes = ROOT / 'dist/release-body.md'
             notes.write_text(body, encoding='utf-8')
             gh('release', 'edit', tag, '--notes-file', str(notes))
     else:
-        notes = ROOT / f'release-notes/{tag}.md'
+        notes = ROOT / 'dist/release-body.md'
+        notes.write_text((ROOT / f'release-notes/{tag}.md').read_text(encoding='utf-8') + '\n\n' + installer_notes, encoding='utf-8')
         gh('release', 'create', tag, '--target', os.environ['GITHUB_SHA'],
            '--title', 'Scientific Writing Mentor ' + tag, '--notes-file', str(notes),
            '--latest', str(package), str(installer))

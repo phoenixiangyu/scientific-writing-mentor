@@ -4,6 +4,12 @@
 
 本 skill 根据 Hilary Glasman-Deal《英语科技写作（第二版）》和邵森林《写好科技论文的一些建议》提炼写作决策规则；来源位置见 [source-map](skills/scientific-writing-mentor/references/source-map.md)。它不是期刊官方工具。
 
+## v2.0 导师要求
+
+默认执行[导师写作重点](skills/scientific-writing-mentor/references/advisor-priorities.md)：句子聚焦精炼、减少套话；结果小节先交代科学目的，每段有明确结论和适当收束；段落之间有逻辑衔接；先呈现已证实的价值，再交代相关权衡；相关图围绕同一问题合讲；caption 只保留读图必需信息。
+
+普通润色默认保留 Methods 以外的既定结构，允许小节内精简、衔接和合并相关邻段。当前任务若要求重构或新大纲，则按其范围处理。上述规则不允许隐去关键负结果、补造数据或用泛化意义句充当结论。
+
 ## 使用
 
 直接说：
@@ -30,9 +36,9 @@ $scientific-writing-mentor 按照 Nature Communications 修改摘要，与可用
 
 ## 安装到 Codex
 
-正式版安装包及校验值见 [Releases](https://github.com/phoenixiangyu/scientific-writing-mentor/releases)。安装包仅包含 skill 与许可说明；大型教材保留在仓库 `source-materials/` 中。使用固定版本时，把下方安装链接中的 `main` 换成对应标签（例如 `v1.0.0`）。
+正式版安装包及校验值见 [Releases](https://github.com/phoenixiangyu/scientific-writing-mentor/releases)。安装包仅包含 skill 与许可说明；大型教材保留在仓库 `source-materials/` 中。使用固定版本时，把下方安装链接中的 `main` 换成对应标签（例如 `v2.0.0`）。
 
-**Windows 一键安装：** 下载 Releases 中的 `scientific-writing-mentor-v1.0.0-setup.exe`，双击后点击“安装”。无需管理员权限或 Python；已有版本会先备份到个人 Codex 目录的 `skill-backups`。尊重 `CODEX_HOME` 设置，安装后检查文件完整性。适用于 Windows 10/11 的 .NET Framework 环境，当前 EXE 未数字签名。它是技能安装器，不是独立 AI 写作软件。
+**Windows 一键安装：** 下载 Releases 中的 `scientific-writing-mentor-v2.0.0-setup.exe`，双击后点击“安装”。无需管理员权限或 Python；已有版本会先备份到个人 Codex 目录的 `skill-backups`。尊重 `CODEX_HOME` 设置，安装后检查文件完整性。适用于 Windows 10/11 的 .NET Framework 环境，当前 EXE 未数字签名。它是技能安装器，不是独立 AI 写作软件。
 
 向已经具有 skill-installer 的 Codex 发送：
 

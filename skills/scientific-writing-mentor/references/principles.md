@@ -26,4 +26,4 @@ State supported findings directly. Replace generic apology with a concrete condi
 
 ## Figures and captions
 
-Give a figure a scientific question and a supported answer. Group panels that establish that comparison. Align legends, units and numbers with the prose. Mention the figure near the finding without reading out every value. Caption capitalization, paragraph length and display budgets remain venue-dependent rather than universal teaching rules.
+Give a figure a scientific question and a supported answer. Group panels that establish that comparison. Organize prose by shared inferences across relevant figures, not one paragraph per figure. Align legends, units and numbers with the prose. Mention the figure near the finding without reading out every value. Keep captions sufficient and concise, following the author's [advisor priorities](advisor-priorities.md); capitalization, exact length and display budgets remain venue-dependent.

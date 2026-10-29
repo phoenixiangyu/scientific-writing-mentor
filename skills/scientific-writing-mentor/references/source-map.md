@@ -43,6 +43,8 @@ Text embedded in figures can be absent from XML extraction. Selected slides were
 
 The requesting author specified fluent clean prose with evidence questions in anchored comments; cooperation with installed skills such as Nature Skills; ES&T/Nature routing; automatic selection where supported; and operation without mandatory collaborators. These requirements are implemented in the entrypoint and comments, venues and collaboration references.
 
+Version 2.0.0 adds the author's advisor priorities: focused natural prose, concise sentences, short sufficient captions, purposeful Results subsection openings, explicit paragraph conclusions and useful closing inferences, transitions, value-led presentation with necessary boundaries, related-figure synthesis and preservation of settled structure outside Methods. These are author preferences, not claims about universal journal rules; see [advisor-priorities.md](advisor-priorities.md).
+
 ## Current journal sources
 
 ES&T's official author-guideline page was read on 2026-10-29; it showed a 2026-10-05 update. Nature official author pages were consulted; direct access to the formatting guide was unavailable through one tool. Therefore this package keeps official entry URLs and requires checking exact live constraints during a venue-specific task rather than freezing numeric limits.

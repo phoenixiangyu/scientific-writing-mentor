@@ -17,7 +17,7 @@ Choose from meaning and current field convention. A tense change can turn a hist
 
 ## Voice, rhythm and modality
 
-Use active voice when the actor matters, passive when the process or object should be foregrounded. Do not invent an actor or ban all passives. Split independent inferences and merge short sentences when their logical relation is clear. Sentence variety should follow meaning rather than mechanical alternation or a fixed length.
+Use active voice when the actor matters, passive when the process or object should be foregrounded. Do not invent an actor or ban all passives. Prefer one concise sentence when it states the same point clearly; split only when distinct inferences or competing conditions need the separation. Preserve readable rhythm and scope rather than maximizing sentence density or following a fixed length. Apply the author's [advisor priorities](advisor-priorities.md) to focus, paragraph transitions and Results openings and conclusions.
 
 Use the strongest wording supported by the design. A measured difference, association, plausible mechanism and causal intervention justify different verbs. Compress duplicated hedging while preserving distinct uncertainties. A non-significant finding does not establish equivalence.
 

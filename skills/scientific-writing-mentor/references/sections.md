@@ -26,7 +26,7 @@ Never complete missing protocols, replicate counts, parameters or approvals from
 
 ## Results
 
-Lead a unit with the scientific question or finding, give the essential comparison and evidence, then the supported local inference. Include necessary magnitude, uncertainty, denominators and statistics without narrating every table value.
+For the author's Results revision, use [advisor-priorities.md](advisor-priorities.md): open each subsection with its scientific purpose, question or relevant context before listing numerical findings. Build each paragraph around an explicit supported conclusion, with the essential comparison and evidence; end with a concise local inference or implication, possibly combined with the final evidence sentence. Include necessary magnitude, uncertainty, denominators and statistics without narrating every table value. Integrate related figures around a shared inference rather than giving every figure a separate paragraph.
 
 Brief methodological orientation can be needed for interpretation; do not duplicate a procedure mechanically. Local interpretation in Results is not universally forbidden. Choose separate or combined Results and Discussion from article function, venue and logical dependencies.
 
@@ -42,4 +42,4 @@ Give the supported answer and its contribution at the appropriate level of gener
 
 ## Captions and SI
 
-Make displays interpretable: sample identity, conditions, symbols, units, uncertainty and relevant statistics. Keep all values consistent with the text. Route supporting detail to SI only when it preserves the main inference and meets venue rules.
+Keep captions concise and sufficient: identify the display, relevant panels, sample identity, essential conditions, symbols, units, uncertainty and required statistics. Omit repeated discussion and procedural detail already available in Methods/SI; never remove information needed to interpret the figure merely to shorten it. Keep all values consistent with the text. Route supporting detail to SI only when it preserves the main inference and meets venue rules.

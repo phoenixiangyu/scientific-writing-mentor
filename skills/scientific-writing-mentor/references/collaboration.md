@@ -15,7 +15,7 @@ Use the actual installed-skill catalog and read a chosen entrypoint. Names and i
 
 ## Handoff
 
-Share relevant source, requested scale, venue/article type, confirmed claims/data, immutable details, output format and anchored issues. A prior model's revision is not new evidence.
+Share relevant source, requested scale, venue/article type, confirmed claims/data, immutable details, output format and anchored issues. Include applicable [advisor priorities](advisor-priorities.md): settled structure outside Methods, purposeful Results openings, paragraph conclusions, concise connected prose, related-figure synthesis and sufficient short captions. A prior model's revision is not new evidence.
 
 Keep one manuscript owner. Give collaborators distinct tasks; do not allow concurrent overwrites. Use subagents only when separately permitted by host and user; this skill does not require them. Reuse established follow-up context and stop recursive mentor–polisher invocation loops.
 
