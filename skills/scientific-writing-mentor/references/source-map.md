@@ -43,7 +43,7 @@ Text embedded in figures can be absent from XML extraction. Selected slides were
 
 The requesting author specified fluent clean prose with evidence questions in anchored comments; cooperation with installed skills such as Nature Skills; ES&T/Nature routing; automatic selection where supported; and operation without mandatory collaborators. These requirements are implemented in the entrypoint and comments, venues and collaboration references.
 
-Version 2.0.0 adds the author's advisor priorities: focused natural prose, concise sentences, short sufficient captions, purposeful Results subsection openings, explicit paragraph conclusions and useful closing inferences, transitions, value-led presentation with necessary boundaries, related-figure synthesis and preservation of settled structure outside Methods. These are author preferences, not claims about universal journal rules; see [advisor-priorities.md](advisor-priorities.md).
+Version 2 adds the author's advisor priorities: focused natural prose, concise sentences, short sufficient captions, purposeful Results subsection openings, explicit paragraph conclusions and useful closing inferences, transitions, value-led presentation with necessary boundaries and related-figure synthesis. Version 2.0.1 removes the withdrawn Methods/non-Methods structure rule: structural intervention follows the task and explicit user constraints. These are author preferences and corrections, not claims about universal journal rules; see [advisor-priorities.md](advisor-priorities.md).
 
 ## Current journal sources
 

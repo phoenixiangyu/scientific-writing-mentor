@@ -1,9 +1,9 @@
 ---
 name: scientific-writing-mentor
-description: 科技论文修改润色、大纲与章节写作；按 ES&T 或 Nature 改善结果段落、逻辑衔接、精炼表达和图注。Apply evidence-led scientific writing, preserve settled structure, keep editorial questions in comments, and coordinate relevant installed skills.
+description: 科技论文修改润色、大纲与章节写作；按 ES&T 或 Nature 改善结果段落、逻辑衔接、精炼表达和图注。Apply evidence-led scientific writing, match structural edits to the task, keep editorial questions in comments, and coordinate relevant installed skills.
 license: MIT
 metadata:
-  version: "2.0.0"
+  version: "2.0.1"
 ---
 
 # Scientific Writing Mentor / 科技论文写作导师
@@ -16,7 +16,7 @@ Infer the journal, article type, section, source language, editing depth and out
 
 State a brief interpretation and continue. Ask only for a missing decision that materially changes the work; progress on independent edits meanwhile. A local polish does not require a complete manuscript, new searches, or a full evidence ledger.
 
-For ordinary revision of an existing manuscript, preserve the settled structure outside Methods unless the user authorizes larger changes. Methods may be reorganized for design and reproducibility, without changing the experiments or inventing missing details. Local compression, transitions and merging adjacent paragraphs serving the same inference are allowed within the settled section order. This default does not constrain a requested new outline or override the user's current scope.
+Match structural intervention to the task, not to a Methods/non-Methods distinction. Preserve organization for language-only edits or an explicitly fixed outline. For substantive revision or logical improvement, adjust sentence and paragraph order, grouping and section organization where useful within the requested scope. Do not infer that every existing heading or sequence is fixed. Explain consequential restructuring outside the manuscript; preserve the underlying research and evidence.
 
 ## Read only what this task needs
 
@@ -38,10 +38,10 @@ The rules are original operational summaries of the supplied teaching materials.
 
 1. **Find the scientific question and supported answer.** Separate findings, interpretations and unanswered questions. Use author data, figures, notes and verified sources. Do not manufacture novelty, mechanisms, measurements, methods, statistics, references or approvals.
 2. **Diagnose at the requested scale.** For major revision, make a short reverse outline of paragraph function, claim, support and connection. For one sentence or title, check those relationships mentally at that scale.
-3. **Build the reader's path within scope.** Preserve settled structure during polish. Open each Results subsection with the question, scientific purpose or relevant context before its numerical findings. Each Results paragraph needs an explicit supported conclusion; close with its local inference or implication, integrated with the evidence when that avoids repetition. Organize related figures around the shared inference rather than one paragraph per figure. Follow [advisor priorities](references/advisor-priorities.md) without mechanically padding short passages.
+3. **Build the reader's path within scope.** Adjust organization to the requested editing depth and any explicit structural constraints. Open each Results subsection with the question, scientific purpose or relevant context before its numerical findings. Each Results paragraph needs an explicit supported conclusion; close with its local inference or implication, integrated with the evidence when that avoids repetition. Organize related figures around the shared inference rather than one paragraph per figure. Follow [advisor priorities](references/advisor-priorities.md) without mechanically padding short passages.
 4. **Write focused, connected prose.** Preserve terminology, values, citations, causal direction, comparison groups and uncertainty. Give each paragraph a clear theme and an explicit connection to the preceding one. Prefer one concise sentence when it conveys the same point clearly; retain two when compression would obscure the relation. Lead with demonstrated value, then integrate the relevant trade-off or boundary. Keep captions to information needed to interpret the display, including required statistical detail.
 5. **Separate manuscript from editorial work.** Draft fluently at the level the supplied material supports. Put evidence requests and verification questions in anchored comments or a sidecar issue list, following [comments.md](references/comments.md). Keep editorial placeholders out of clean prose.
-6. **Verify fidelity and narrative.** Compare numbers, units, references, effect directions, scope and claim strength with the source. Check the title–question–results–conclusion chain, Results openings and concluding statements, transitions, figure grouping, concise captions and preservation of settled structure. Inspect rendered output when producing formatted documents.
+6. **Verify fidelity and narrative.** Compare numbers, units, references, effect directions, scope and claim strength with the source. Check the title–question–results–conclusion chain, Results openings and concluding statements, transitions, figure grouping, concise captions and compliance with the requested structural scope. Inspect rendered output when producing formatted documents.
 
 ## Collaborate when useful
 
