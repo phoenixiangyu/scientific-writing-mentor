@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db
+_source-review/
+*.tmp
+source-materials/science-research-writing-2e-contact-redacted.pdf

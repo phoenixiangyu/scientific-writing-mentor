@@ -1,0 +1,4 @@
+interface:
+  display_name: "科技论文写作导师"
+  short_description: "Plan, revise and polish evidence-based scientific papers"
+  default_prompt: "Use $scientific-writing-mentor to revise this manuscript for my target journal and keep editorial questions in comments."

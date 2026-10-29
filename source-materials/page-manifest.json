@@ -1,0 +1,59 @@
+{
+  "total_pages": 503,
+  "parts": [
+    {
+      "file": "science-research-writing-2e-p001-126-redacted.pdf",
+      "first_pdf_page": 1,
+      "last_pdf_page": 126,
+      "pages": 126
+    },
+    {
+      "file": "science-research-writing-2e-p127-174-redacted.pdf",
+      "first_pdf_page": 127,
+      "last_pdf_page": 174,
+      "pages": 48
+    },
+    {
+      "file": "science-research-writing-2e-p175-221-redacted.pdf",
+      "first_pdf_page": 175,
+      "last_pdf_page": 221,
+      "pages": 47
+    },
+    {
+      "file": "science-research-writing-2e-p222-268-redacted.pdf",
+      "first_pdf_page": 222,
+      "last_pdf_page": 268,
+      "pages": 47
+    },
+    {
+      "file": "science-research-writing-2e-p269-315-redacted.pdf",
+      "first_pdf_page": 269,
+      "last_pdf_page": 315,
+      "pages": 47
+    },
+    {
+      "file": "science-research-writing-2e-p316-362-redacted.pdf",
+      "first_pdf_page": 316,
+      "last_pdf_page": 362,
+      "pages": 47
+    },
+    {
+      "file": "science-research-writing-2e-p363-409-redacted.pdf",
+      "first_pdf_page": 363,
+      "last_pdf_page": 409,
+      "pages": 47
+    },
+    {
+      "file": "science-research-writing-2e-p410-456-redacted.pdf",
+      "first_pdf_page": 410,
+      "last_pdf_page": 456,
+      "pages": 47
+    },
+    {
+      "file": "science-research-writing-2e-p457-503-redacted.pdf",
+      "first_pdf_page": 457,
+      "last_pdf_page": 503,
+      "pages": 47
+    }
+  ]
+}
